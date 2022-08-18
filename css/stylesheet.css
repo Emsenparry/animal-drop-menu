@@ -2,3 +2,16 @@ img{
     width: 50%;
     height: 50%;
 }
+
+select{
+    padding: 0.5em 0;
+    margin: 1em 2em;
+}
+
+#center, figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

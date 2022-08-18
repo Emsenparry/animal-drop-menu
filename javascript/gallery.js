@@ -12,11 +12,11 @@ function animalselected() {
 
     switch (mySelect.value) {
         case "tiger":
-            buildAnimalCard("tiger", "https://knuthenborg.dk/wp-content/uploads/2021/05/hi-igtv-keni-thumb-e1620816735137.png", "Super flot Tiger");
+            buildAnimalCard("Tiger", "https://knuthenborg.dk/wp-content/uploads/2021/05/hi-igtv-keni-thumb-e1620816735137.png", "Super flot Tiger");
             break;
 
         case "koala":
-            buildAnimalCard("koala", "https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fcrop%2F2021%2F10%2F19%2F1634629513_kerin-gedge-p3sej29shd8-unsplash.jpg&scaleAfter=crop&quality=70&w=720&h=405", "En cute lille koala");
+            buildAnimalCard("Koala", "https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fcrop%2F2021%2F10%2F19%2F1634629513_kerin-gedge-p3sej29shd8-unsplash.jpg&scaleAfter=crop&quality=70&w=720&h=405", "En cute lille koala");
             break;
 
         case "ferret":
@@ -24,7 +24,7 @@ function animalselected() {
             break;
 
         case "spider":
-            buildAnimalCard("edderkop", "https://videnskab.dk/files/article_media/spider.jpg", "Kill it.");
+            buildAnimalCard("Edderkop", "https://videnskab.dk/files/article_media/spider.jpg", "Kill it.");
             break;
 
         default:
